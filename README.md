@@ -23,18 +23,10 @@ _By the way, Sloane wanted “kiwi’s”._
 
 ## Parts
 
-- I purchased an [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3) ($22) board online, and after realizing I had no way to plug it into my computer also bought a [Freenove Starter Kit](https://www.amazon.com.au/Freenove-Processing-Oscilloscope-Voltmeter-Components/dp/B0721B8228/ref=sr_1_1?keywords=freenove+arduino+uno+starter+kit&qid=1576150765&s=electronics&sr=1-1) ($34) as well.
-
-- I attended a saturday’s hackers session at [Connected Community Hackerspace](https://www.hackmelbourne.org/) where I learned the basics of [Ohm’s Law](https://en.wikipedia.org/wiki/Ohm%27s_law) (electricity) and saw people building and driving around machine learning car robots.
-- There I did the “hello world” of arduino boards and made an led light turn on through the circuit board
-- I’ve looked through the Arduino library for some examples of different projects to build but realized they’re in C++ and I’m wanting to use node.js
-
-### Next steps:
-
-- I understand that [Johnny-Five](http://johnny-five.io/) is a great site for documentation and the community is really friendly so I’ll try and start there as a guide
-  - I join the [Gitter chat group](https://gitter.im/rwaldron/johnny-five) for more support
-- I was also referred to [Node-Ardx](http://node-ardx.org/) as a place for node.bot newbies to start from people at Hackerspace Melbourne.
-- Figure out all the hardware I need and what I need to purchase, I believe I need a [GSM](https://www.arduino.cc/en/Guide/ArduinoGSMShield) (\$40 (and this hobby is starting to get expensive))
+| Part                                                                  | Source                                                                                                                                                                                                         | Price |
+| --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----: |
+| Arduino Uno Board                                                     | [Arduino Website](https://store.arduino.cc/usa/arduino-uno-rev3)                                                                                                                                               |  \$22 |
+| Breadboard, two buttons, wires, resistors from - Freenove Starter Kit | [Freenove Starter Kit](https://www.amazon.com.au/Freenove-Processing-Oscilloscope-Voltmeter-Components/dp/B0721B8228/ref=sr_1_1?keywords=freenove+arduino+uno+starter+kit&qid=1576150765&s=electronics&sr=1-1) |  \$34 |
 
 ## How to send an email in a push of a button (as in an actual button)
 
@@ -97,7 +89,6 @@ Demo of the setup
 
   - GSM was going to cost $70 and then $70 to ship to get here with just 3 days to code on it which I didn't feel comfortable with. So I decided to get a Wifi Shield instead and try and code on it that way
   - I was waiting on an NodeMCU and didn't end up getting it in time to implement into the project
-  - To use the vibrate method like I considered above I would need to buy a [vibration motor](https://www.sparkfun.com/products/8449), it's only \$2 but I didn't have the time to wait for it.
 
 - **SMS** Running into issues with Twilio - Australia has regulation issues with signing up for an account that could take up to 3 days. Because I'm an American and have no Australian documentation I wasn't verified.
   -Then tried using [TouchSMS](https://platform.touchsms.com.au/register) but they require you to sign up manually by emailing their support team? No thanks.
@@ -105,8 +96,4 @@ Demo of the setup
 
 ## Resources
 
-- [npm keypress](https://www.npmjs.com/package/keypress) is helpful to use your keyboard as a controller. For example in the [Servo Continuous tutorial](http://johnny-five.io/examples/servo-continuous/) you require keypress and use the the up and down arrows, space bar, and q to control the servo.
-
 - Sending SMS from Arduino over internet on [instructables](https://www.instructables.com/id/Send-SMS-from-Arduino-over-the-Internet-using-ENC2/)
-
-- [Arduino Uno projects](https://electronicsforu.com/arduino-projects-ideas) to see what’s [possible](https://howtomechatronics.com/arduino-projects/) in [general](https://circuitdigest.com/arduino-projects).
