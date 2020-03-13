@@ -1,7 +1,7 @@
 # Sloane-Phone-Node
 
 - For an intro and setting up NodeBots check out my [Node_Bots repo](https://github.com/nikkiricks/Node_Bots)
-- To see how I took my Sloane Phone to the next level using C++ check out my [Sloane-Phone-Arduino repo](https://github.com/nikkiricks/Sloane-Phone-Arduino)
+- To see how I took my Sloane Phone to the next level with a board that used a SIM card and using C++ check out my [Sloane-Phone-Arduino repo](https://github.com/nikkiricks/Sloane-Phone-Arduino)
 
 ## The Tech Inspiration
 
@@ -15,7 +15,7 @@ Bad time = “bananas” Good time = “kiwi”
 
 ## How tech and life came together
 
-This interaction inspired me to think, what if I could have left my daughter with a simple device that could text me an emoji how she was feeling as opposed to going through the babysitter? Maybe the two options could be :smiley: or :cry:?
+This experience inspired me, what if I could have left my daughter with a simple device that could text me an emoji how she was feeling as opposed to going through the babysitter? Maybe the two options could be :smiley: or :cry:?
 
 So the idea of the **Sloane Phone** was born.
 
@@ -29,6 +29,8 @@ _By the way, Sloane wanted “kiwi’s”._
 | Breadboard, two buttons, wires, resistors from - Freenove Starter Kit | [Freenove Starter Kit](https://www.amazon.com.au/Freenove-Processing-Oscilloscope-Voltmeter-Components/dp/B0721B8228/ref=sr_1_1?keywords=freenove+arduino+uno+starter+kit&qid=1576150765&s=electronics&sr=1-1) |  \$34 |
 
 ## How to send an email in a push of a button (as in an actual button)
+
+Again, if you're not familiar with NodeBots start with my [Node_Bots repo](https://github.com/nikkiricks/Node_Bots) to get set up.
 
 Sign up for [Send Grid](https://sendgrid.com/solutions/email-api/) and get an API key. I found the [github instructions](https://github.com/sendgrid/sendgrid-nodejs/tree/master/packages/mail) really helpful.
 
@@ -83,16 +85,19 @@ Demo of the setup
 
 ![](images/final_setup.gif)
 
+## How to send an SMS with the same code
+
+I was running into issues with Twilio - Australia has strong regulations. Because I'm an American and have no Australian documentation I wasn't verified.
+
+- I then tried using [TouchSMS](https://platform.touchsms.com.au/register) but they require you to sign up manually by emailing their support team? No thanks.
+  -Finally I heard about [MessageMedia](https://hub.messagemedia.com/) where you can easily send a text using an email address if the number you're trying to text is "+610577355263" you could just add it to "@e2s.messagemedia.com" so it would be "610577355263@e2s.messagemedia.com". So easy! I highly recommend it.
+
 ## Challenges
 
 - **Hardware** was both fun and frustrating. It was interesting to research the kit I purchased and see what I could do with all of the pieces but frustrating when I would purchase a piece and then needed something else to go along with it.
 
   - GSM was going to cost $70 and then $70 to ship to get here with just 3 days to code on it which I didn't feel comfortable with. So I decided to get a Wifi Shield instead and try and code on it that way
   - I was waiting on an NodeMCU and didn't end up getting it in time to implement into the project
-
-- **SMS** Running into issues with Twilio - Australia has regulation issues with signing up for an account that could take up to 3 days. Because I'm an American and have no Australian documentation I wasn't verified.
-  -Then tried using [TouchSMS](https://platform.touchsms.com.au/register) but they require you to sign up manually by emailing their support team? No thanks.
-  -Finally I heard about [MessageMedia](https://hub.messagemedia.com/) where you can easily send a text using an email address if the number you're trying to text is "+610577355263" you could just add it to "@e2s.messagemedia.com" so it would be "610577355263@e2s.messagemedia.com". So easy!
 
 ## Resources
 
