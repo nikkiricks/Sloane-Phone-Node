@@ -1,7 +1,7 @@
 # Sloane-Phone-Node
 
 - For an intro and setting up NodeBots check out my [Node_Bots repo](https://github.com/nikkiricks/Node_Bots)
-- To see how I took my Sloane Phone to the next level with a board that used a SIM card and using C++ check out my [Sloane-Phone-Arduino repo](https://github.com/nikkiricks/Sloane-Phone-Arduino)
+- To see how I took my Sloane Phone to the next level with a board that holds a SIM card and using C++ check out my [Sloane-Phone-Arduino repo](https://github.com/nikkiricks/Sloane-Phone-Arduino)
 
 ## The Tech Inspiration
 
@@ -9,7 +9,7 @@ I was listening to the [Code Newbie Podcast](https://www.codenewbie.org/podcast)
 
 ## The Real Life Inspiration
 
-One day, when leaving my kids with a new babysitter, my oldest, who was 6 at the time was really nervous about it and didn’t want us to go. Before the babysitter came, I told her that we could create a secret password to pass through the babysitter without him knowing. I said that we could tell the babysitter that my partner and I were going to go grocery shopping and my daughter was going to think about the type of fruit she was wanting us pick up. But the secret password was, that if she was having a really hard time and needed us to come home she could tell the babysitter to text us saying she wanted “bananas” (a fruit my daughter doesn’t like) but if she was having a great time and didn’t need us to come home she could text us and say she wanted “kiwi” (one of my daughters favorite fruit).
+One day, when leaving my kids with a new babysitter, my oldest, who was 6 at the time was nervous about it and didn’t want us to go. Before the babysitter came, I told her that we could create a secret password to pass through the babysitter without him knowing. I said that we could tell the babysitter that my partner and I were going to go grocery shopping and my daughter was going to think about the type of fruit she was wanting us to pick up. But the secret password was, that if she was having a really hard time and needed us to come home she could tell the babysitter to text us saying she wanted “bananas” (a fruit my daughter doesn’t like) but if she was having a great time and didn’t need us to come home she could text us and say she wanted “kiwi” (one of my daughter's favorite fruit).
 
 Bad time = “bananas” Good time = “kiwi”
 
@@ -27,6 +27,7 @@ _By the way, Sloane wanted “kiwi’s”._
 | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----: |
 | Arduino Uno Board                                                     | [Arduino Website](https://store.arduino.cc/usa/arduino-uno-rev3)                                                                                                                                               |  \$22 |
 | Breadboard, two buttons, wires, resistors from - Freenove Starter Kit | [Freenove Starter Kit](https://www.amazon.com.au/Freenove-Processing-Oscilloscope-Voltmeter-Components/dp/B0721B8228/ref=sr_1_1?keywords=freenove+arduino+uno+starter+kit&qid=1576150765&s=electronics&sr=1-1) |  \$34 |
+| **TOTAL**                                                             |                                                                                                                                                                                                                |  \$56 |
 
 ## How to send an email in a push of a button (as in an actual button)
 
@@ -90,7 +91,8 @@ Demo of the setup
 I was running into issues with Twilio - Australia has strong regulations. Because I'm an American and have no Australian documentation I wasn't verified.
 
 - I then tried using [TouchSMS](https://platform.touchsms.com.au/register) but they require you to sign up manually by emailing their support team? No thanks.
-  -Finally I heard about [MessageMedia](https://hub.messagemedia.com/) where you can easily send a text using an email address if the number you're trying to text is "+610577355263" you could just add it to "@e2s.messagemedia.com" so it would be "610577355263@e2s.messagemedia.com". So easy! I highly recommend it.
+
+-Finally I heard about [MessageMedia](https://hub.messagemedia.com/) where you can easily send a text using an email address if the number you're trying to text is "+610577355263" you could just add it to "@e2s.messagemedia.com" so it would be "610577355263@e2s.messagemedia.com". So easy! I highly recommend it.
 
 ## Challenges
 
