@@ -1,5 +1,7 @@
 # Sloane-Phone-Node
 
+This is a tutorial using the [Arduino Uno Board](https://store.arduino.cc/usa/arduino-uno-rev3) and the [Johnny-Five](http://johnny-five.io/) JavaScript library. Both are open sourced.
+
 - For an intro and setting up NodeBots check out my [Node_Bots repo](https://github.com/nikkiricks/Node_Bots)
 - To see how I took my Sloane Phone to the next level with a board that holds a SIM card and using C++ check out my [Sloane-Phone-Arduino repo](https://github.com/nikkiricks/Sloane-Phone-Arduino)
 
