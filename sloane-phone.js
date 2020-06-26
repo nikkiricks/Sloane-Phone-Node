@@ -8,7 +8,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 var userDetails = {
   email: 'nikki.ricks@gmail.com',
-  phoneNumber: '61488611347@e2s.messagemedia.com'
+  phoneNumber: '61555272818@e2s.messagemedia.com'
 }
 
 
@@ -18,7 +18,7 @@ board.on("ready", function() {
 
   buttonTwo.on("up", function() {
     const msg = {
-      to: '61488611347@e2s.messagemedia.com',
+      to: '61555272818@e2s.messagemedia.com',
       // to: 'hey@feminest.co',
       from: 'nikki.ricks@gmail.com',
       subject: '🙂',
@@ -31,7 +31,7 @@ board.on("ready", function() {
 
   buttonFour.on("up", function() {
     const msg = {
-      to: '61488611347@e2s.messagemedia.com',
+      to: '61555272818@e2s.messagemedia.com',
       // to: 'hey@feminest.co',
       from: 'nikki.ricks@gmail.com',
       subject: '😢',
